@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# scikit-learn OpenML cache (downloaded dataset cache)
+~/scikit_learn_data/
+
+# Model artifacts (optional — uncomment to exclude from git)
+# models/
+
+# Evaluation graphs (optional — uncomment to exclude from git)
+# reports/
