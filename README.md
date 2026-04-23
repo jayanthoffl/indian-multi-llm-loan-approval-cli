@@ -10,7 +10,7 @@
 ```
 ══════════════════════════════════════════════════════════
        🏦  AI LOAN ELIGIBILITY PREDICTOR  🏦
-          India-Specific  |  German Credit Model
+          India-Specific  |  ML Credit Risk Model
 ══════════════════════════════════════════════════════════
 
   ✔  LOAN APPLICATION APPROVED ✔
@@ -332,10 +332,35 @@ Expected output:
   [DONE] Training complete!
 ```
 
-### 5. Run the Predictor
+### 5. Launch the App
 
 ```bash
-python loan_predictor.py
+python main.py
+```
+
+You'll see a main menu with two options:
+
+```
+==========================================================
+       🏦  AI LOAN ELIGIBILITY PREDICTOR  🏦
+          India-Specific  |  ML Credit Risk Model
+==========================================================
+
+  Status:
+    Prediction Model  : [READY]
+    Evaluation Graphs : [READY]
+
+  What would you like to do?
+
+      1.  Loan Eligibility Predictor
+           Answer a few questions and get an instant prediction
+           + India-specific bank recommendations if rejected
+
+      2.  Model Evaluation Dashboard
+           View confusion matrix, ROC curve, feature importance,
+           model comparison, precision-recall & class distribution
+
+      0.  Exit
 ```
 
 ---
